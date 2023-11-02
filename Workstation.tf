@@ -1,5 +1,5 @@
 module "this" {
-  source = "git::https://github.com/kanalavinodkumar/Docker-infra.git?ref=master"
+  source = "git::https://github.com/kanalavinodkumar/Docker-infra.git"
   cidr_block = var.cidr_block
   common_tags = var.vpc_tags
   public_subnet_cidr = var.public_subnet_cidr
